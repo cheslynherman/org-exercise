@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* NAV START */
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: aliceblue;
+    color: #333;
+}
+
+.topnav img {
+    width: 50px;
+    padding: 9px;
+    display: flex;
+    justify-content: right;
+}
+
+/* NAV END */
+
+
+
+/* TOP SECTION */
+.header {
+    line-height: 5;
+    /* background-color: gold; */
+}
+/* TOP SECTION END */
+
+
+
+/* CARDS START  */
+
+.card-container {
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+ .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+ .card-container:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+ .flip-img, .flip-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+ .flip-front {
+    background-color: #fff;
+  }
+  
+.flip-text{
+    background-color: white;
+    transform: rotateY(180deg);
+  } 
+  
+ .text{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  /* CARDS END */
+
+
+
+  /* FOOTER */
+
+footer {
+    padding: 10px;
+    margin-top: 10px;
+}
+.footer {
+
+}
+
+.iconsDiv {
+    text-align: left;
+    align-items: left;
+}
+.paraDiv {
+    text-align: center;
+}
+.icons {
+    height: 40px;
+    width: 40px;
+}
+  /* FOOTER END */
+
