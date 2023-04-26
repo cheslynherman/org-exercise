@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* padding: 15px; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+.logoImage {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.logoName {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: larger;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: aliceblue;
+    color: #333;
+}
+.land {
+    height: 500px;
+    width: 100%;
+    background: url(images/landing.jpg) no-repeat center center / cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.headerText {
+    padding-top: 180px;
+    color: black;
+}
+h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    margin-bottom: 10px;
+}
+.links {
+    
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+}
+.information {
+    padding: 10px;
+    display: flex;
+}
+.about {
+    float: left;
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    border: 2px double white;
+}
+.contact {
+    float: right;
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+    border: 2px double white;
+}
+.icons {
+    height: 40px;
+    width: 40px;
+}
+footer {
+    padding: 10px;
+    margin-top: 10px;
+}
+.iconsDiv {
+    text-align: left;
+    align-items: left;
+}
+.readButton {
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+.readButton:hover {
+    width: 70px;
+    height: 40px;
+}
+.pHeading {
+    font-size: large;
+}
+.paraDiv {
+    text-align: center;
+}
