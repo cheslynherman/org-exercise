@@ -1,0 +1,163 @@
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: aliceblue;
+    color: #333;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+body{
+    font-family: Arial;
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.leftcolumn{
+    width: 80%; 
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin: 50px 100px;
+}
+
+/* .rightcolumn{
+    float: right;
+    width: 30%;
+    padding-right: 30px;
+    height: auto;
+    /* padding-left: ; */
+
+
+.card{
+    /* background-color: aliceblue; */
+
+    padding: 20px;
+    margin-top: 20px;
+    border: 5px double white;
+}
+.form{
+    border: 3px solid black;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    height: auto;
+    /* background: gray; */
+    background: black;
+}
+
+.name{
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: auto;
+    height: 70px;
+    padding-top: 15px;
+}
+.email{
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: auto;
+    height: 70px;
+}
+.message{
+    /* border: 1px solid black; */
+    width: 75%;
+    margin: auto;
+    padding-bottom: 20px;
+    /* height: 70px; */
+}
+
+.submit{
+    background-color: white;
+    transition-duration: 1s;
+    cursor: grab;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.calendar{
+    width: 100%;
+}
+
+.month-indicator{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.day-of-week,
+.date-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day-of-week{
+    margin-top: 1.25em;
+}
+
+.day-of-week> * {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.date-grid{
+    margin-top: 8px;
+}
+
+.date-grid button:first-child {
+    grid-column: 7;
+}
+
+.date-grid button{
+    position: relative;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 10px;
+}
+.iconsDiv {
+    text-align: left;
+    align-items: left;
+}
+
+.paraDiv {
+    text-align: center;
+}
+
+.icons {
+    height: 40px;
+    width: 40px;
+}
+
+
